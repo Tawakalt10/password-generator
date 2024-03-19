@@ -26,7 +26,9 @@ generateEl.addEventListener('click', () => {
     const hasNumber = numbersEl.checked;
     const hasSymbol = symbolsEl.checked;
   
-    console.log(typeof  length)
+
+    console.log(length);
+    console.log(typeof  length);
     
     answerEl.innerText = generatePassword(
         hasLower, 
